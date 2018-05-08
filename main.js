@@ -16,7 +16,7 @@ $(document).ready(function () {
 });
 
 function getMovies(query) {
-    const apiKey = '7df71861';
+    const apiKey = 'Enter your OMDBAPI';
     axios.get('http://www.omdbapi.com/?s=' + query + '&apikey=' + apiKey)
         .then((response) => {
             console.log(response);
